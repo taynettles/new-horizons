@@ -1,13 +1,22 @@
 import React from 'react';
 import './App.css';
+import './bg1.jpg';
+import '/bg2.jpg';
 
-function SwitchStyle() {
-  return (
-      <div>
-        <button>Sunrise</button>
-        <button>Sunset</button>
-      </div>
-  )
+const SwitchStyle = ({ onClick }) =>
+  <button 
+    className="switchButton"
+    style={{
+      backgroundColor: 'red',
+      position: 'relative',
+      margin: '1em',
+    }}
+    type="button"
+    data-target="App-header"
+    onClick={click}
+  >
+    Text
+  </button>
+export default class SwitchStyle extends Component {
+
 }
-
-export default SwitchStyle

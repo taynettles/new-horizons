@@ -34,7 +34,7 @@ function Timer() {
 
       timerComponents.push(
         <span>
-          {timeLeft[interval]} {interval}{" "}
+          {timeLeft[interval]} {interval}{", "}
         </span>
       );
     });

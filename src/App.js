@@ -1,7 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Particles from 'react-particles-js';
+import { FaGithub } from 'react-icons/fa';
+
 import Timer from './Timer.js';
-import SwitchStyle from './SwitchStyle.js';
+// import SwitchStyle from './SwitchStyle.js';
 import './App.css';
 import logo from './acnh-logo.png';
 import wood from './wood.jpg';
@@ -19,10 +22,10 @@ function App() {
     params= {{
       particles: {
         number: {
-          value: 90,
+          value: 80,
           density: {
             enable: true,
-            value_area: 5000
+            value_area: 3000
           }
         },
         shape: {
@@ -43,35 +46,34 @@ function App() {
           direction: "bottom-right",
           out_mode: "out",
           straight: false,
-          speed: 1.5,
+          speed: 3,
         },
-        /* interactivity: {
+        interactivity: {
           detect_on: "window",
           events: {
             onhover: {
               enable: true,
               mode: "repulse",
-              modes: {
-                repulse: {
-                distance: 1000,
-                size: 80,
-                duration: 2,
-                speed: 3
-                }, 
-              },
+            }, 
+            modes: {
+              repulse: {
+              distance: 1000,
+              size: 80,
+              duration: 2,
+              speed: 3
+              }, 
             },
           },
-        }, */
+        },
+        },
         retina_detect: true
         }
-      }}
+      }
       />
       <header className="App-header">
-        <Timer style={{
-          backgroundImage: {wood}
-        }} />  
+        <Timer />  
         <img src={logo} className="App-logo" alt="logo" /> 
-        <SwitchStyle className="SwitchStyle" />
+        {/*<SwitchStyle className="SwitchStyle" />*/}
       </header>
     </div> 
   );
