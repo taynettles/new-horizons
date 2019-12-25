@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/new-horizons/precache-manifest.c35b527f963099066afe4ddc7d186b8c.js"
+  "/new-horizons/precache-manifest.0cd8de51563e4fc41d03651cbcb4c08a.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fa3622ca7fe958673aecbd36c640144d",
+    "revision": "5506144b02d5ff301401c83438a112bc",
     "url": "/new-horizons/index.html"
   },
   {
-    "revision": "8502bbda54fc896a36cb",
-    "url": "/new-horizons/static/css/main.e0482c85.chunk.css"
+    "revision": "6bd514c731c411584a11",
+    "url": "/new-horizons/static/css/main.41c1ff03.chunk.css"
   },
   {
-    "revision": "6372287f96924743997e",
-    "url": "/new-horizons/static/js/2.272d94dd.chunk.js"
+    "revision": "5875dc4263b727d5aacb",
+    "url": "/new-horizons/static/js/2.c64690e8.chunk.js"
   },
   {
-    "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/new-horizons/static/js/2.272d94dd.chunk.js.LICENSE"
+    "revision": "e928fe768baa9832b5bc57eae021f30c",
+    "url": "/new-horizons/static/js/2.c64690e8.chunk.js.LICENSE"
   },
   {
-    "revision": "8502bbda54fc896a36cb",
-    "url": "/new-horizons/static/js/main.e19e3ec9.chunk.js"
+    "revision": "6bd514c731c411584a11",
+    "url": "/new-horizons/static/js/main.1efcf98d.chunk.js"
   },
   {
     "revision": "85bdee3a0279e413e530",
