@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a1d3ee80.chunk.css",
+    "main.js": "/static/js/main.c07aa260.chunk.js",
+    "main.js.map": "/static/js/main.c07aa260.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.90fd33df.js",
+    "runtime-main.js.map": "/static/js/runtime-main.90fd33df.js.map",
+    "static/js/2.272d94dd.chunk.js": "/static/js/2.272d94dd.chunk.js",
+    "static/js/2.272d94dd.chunk.js.map": "/static/js/2.272d94dd.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f3cdf014caa1d32e76d9f739c03ff4a1.js": "/precache-manifest.f3cdf014caa1d32e76d9f739c03ff4a1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.a1d3ee80.chunk.css.map": "/static/css/main.a1d3ee80.chunk.css.map",
+    "static/js/2.272d94dd.chunk.js.LICENSE": "/static/js/2.272d94dd.chunk.js.LICENSE",
+    "static/media/FinkHeavy.ttf": "/static/media/FinkHeavy.796b643a.ttf",
+    "static/media/acnh-logo.png": "/static/media/acnh-logo.2e77a25e.png",
+    "static/media/App.css": "/static/media/bg1.ec009472.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.90fd33df.js",
+    "static/js/2.272d94dd.chunk.js",
+    "static/css/main.a1d3ee80.chunk.css",
+    "static/js/main.c07aa260.chunk.js"
+  ]
+}
