@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 import Particles from 'react-particles-js';
 import { FaGithub } from 'react-icons/fa';
 
@@ -71,10 +71,16 @@ function App() {
       }
       />
       <header className="App-header">
-        <Timer />  
+        <div className="TimerContainer" style={{backgroundImage: {wood}}}>
+          <Timer />
+        </div>
         <img src={logo} className="App-logo" alt="logo" /> 
         {/*<SwitchStyle className="SwitchStyle" />*/}
       </header>
+      <footer className="App-footer">
+        <a href="https://github.com/taynettles">{FaGithub}Github</a>
+        Unofficial fan project. Image and logo assets belong to Nintendo of America.
+      </footer>
     </div> 
   );
 }

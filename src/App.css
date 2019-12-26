@@ -30,15 +30,26 @@ canvas {
   justify-content: center;
   font-family: 'FinkHeavy', Helvetica;
   font-size: calc(10px + 3vmin);
+  color: #e6c459;
+  text-shadow: 3px 3px #1a3014;  
+}
+
+.App-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 2vmin;
   color: white;
-  
 }
 
 .App-link {
   color: #61dafb;
 }
 
-
-.Timer {
-  
+.TimerContainer {
+  background-image: url(wood.jpg);
+  padding: 10px;
+  border-radius: 5px;
 }
