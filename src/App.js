@@ -71,7 +71,7 @@ function App() {
       }
       />
       <header className="App-header">
-        <div className="TimerContainer" style={{backgroundImage: {wood}}}>
+        <div className="TimerContainer"}>
           <Timer />
         </div>
         <img src={logo} className="App-logo" alt="logo" /> 
